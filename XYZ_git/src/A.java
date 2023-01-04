@@ -1,10 +1,15 @@
 
 public class A {
 
+	public void m1()
+	{
+	 System.out.println("Tula kai yet nai");
+	}
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
-System.out.println("HELLOOOOO");
+		A a=new A();
+		a.m1();
+          System.out.println("HELLOOOOO");
 	}
 
 }
