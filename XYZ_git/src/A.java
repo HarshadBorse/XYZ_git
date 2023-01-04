@@ -14,12 +14,18 @@ public class A
 	{
 		System.out.println("AAAAAAAAAAAAA");
 	}
+	public void m4()
+	{
+		System.out.println("palllllllllllllllllllllllllllllllllllllllll");
+	}
 	public static void main(String[] args) 
 	{
 		A a=new A();
 		a.m1();
 		a.m2();
 		a.m3();
+		a.m4();
+		
           System.out.println("HELLOOOOO");
 	}
 
