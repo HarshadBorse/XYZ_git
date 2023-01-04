@@ -10,11 +10,16 @@ public class A
 	{
 		System.out.println("Tula lai yet ka??");
 	}
+	public void m3()
+	{
+		System.out.println("AAAAAAAAAAAAA");
+	}
 	public static void main(String[] args) 
 	{
 		A a=new A();
 		a.m1();
 		a.m2();
+		a.m3();
           System.out.println("HELLOOOOO");
 	}
 
